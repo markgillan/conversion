@@ -1,0 +1,687 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<HTML>
+<HEAD>
+<TITLE>Metric to Imperial Conversion Table</TITLE>
+<META NAME="Description" CONTENT="Mark presents a Conversion Calculator">
+<META NAME="KeyWords" CONTENT="JavaScript, Conversion calculator, Metric, Imperial">
+<SCRIPT>
+
+	<!-- hide script
+	function calc(val,factor,putin) { 
+	if (val == "") {
+		val = "0"
+	}
+	evalstr = "document.ConverTable."+putin+ ".value = "
+	evalstr = evalstr + val + "*" + factor
+	eval(evalstr)
+}
+
+</SCRIPT>
+</HEAD>
+
+
+<BODY BGCOLOR="#ffffff" TEXT="#000000" LINK="#0000ff" VLINK="#800080" ALINK="#ff0000" BACKGROUND="../graphics/blueside.gif" BGPROPERTIES=FIXED>
+
+<A NAME="Page_Top">
+<BLOCKQUOTE>
+
+<B>Instructions</B>: Type a value into the lefthand column. Then click
+in the righthand column to see the result.
+
+<FORM NAME = "ConverTable">
+
+<CENTER>
+<TABLE  WIDTH=90% CELLSPACING=2 CELLPADDING=3 BORDER=0>
+<TR BGCOLOR="#E0E0FF">
+<TH COLSPAN=3>
+<FONT SIZE=+1>Metric/Imperial Converter</FONT>
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF" ALIGN=center>
+<TD COLSPAN=3><A NAME="Length">Go To:</A> 
+<A HREF="#Length">Length</A> | 
+<A HREF="#Area">Area</A> | 
+<A HREF="#Mass">Mass and Weight</A> | 
+<A HREF="#Liquid">Liquid Volume</A> | 
+<A HREF="#Temper">Temperature</A>
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TH COLSPAN=3>
+Length
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TH ALIGN=center>
+Type in what you know
+</TH>
+
+<TH ALIGN=center>
+Conversion Factor
+</TH>
+
+<TH ALIGN=center>
+Result
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,25.4,'cmillimeters')">inches
+</TD>
+
+<TD ALIGN=center>
+x 25.4 =
+</TD>
+
+<TD>
+<INPUT NAME="cmillimeters" SIZE=10 onFocus="this.blur()">millimeters
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,30.48,'ccentimeters')">feet
+</TD>
+
+<TD ALIGN=center>
+x 30.48 =
+</TD>
+
+<TD>
+<INPUT NAME="ccentimeters" SIZE=10 onFocus="this.blur()">centimeters
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.9144,'cmeters')">yards
+</TD>
+
+<TD ALIGN=center>
+x 0.9144 =
+</TD>
+
+<TD>
+<INPUT NAME="cmeters" SIZE=10 onFocus="this.blur()">meters
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,1.609,'ckilos')">miles
+</TD>
+
+<TD ALIGN=center>
+x 1.609 =
+</TD>
+
+<TD>
+<INPUT NAME="ckilos" SIZE=10 onFocus="this.blur()">kilometers
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TH COLSPAN=3 ALIGN=center>
+--
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.03937,'cinches')">millimeters
+</TD>
+
+<TD ALIGN=center>
+x 0.03937 = 
+</TD>
+
+<TD>
+<INPUT NAME="cinches" SIZE=10 onFocus="this.blur()">inches
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.3937,'cinches2')">centimeters
+</TD>
+
+<TD ALIGN=center>
+x 0.3937 = 
+</TD>
+
+<TD>
+<INPUT NAME="cinches2" SIZE=10 onFocus="this.blur()">inches
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,1.0936,'cyards')">meters
+</TD>
+
+<TD ALIGN=center>
+x 1.0936 = 
+</TD>
+
+<TD>
+<INPUT NAME="cyards" SIZE=10 onFocus="this.blur()">yards
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.6214,'cmiles')">kilometers
+</TD>
+
+<TD ALIGN=center>
+x 0.6214 = 
+</TD>
+
+<TD>
+<INPUT NAME="cmiles" SIZE=10 onFocus="this.blur()">miles
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF" ALIGN=center>
+<TD COLSPAN=3><A NAME="Area">Go To:</A> 
+<A HREF="#Length">Length</A> | 
+<A HREF="#Area">Area</A> | 
+<A HREF="#Mass">Mass and Weight</A> | 
+<A HREF="#Liquid">Liquid Volume</A> | 
+<A HREF="#Temper">Temperature</A>
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF" ALIGN=center>
+<TH COLSPAN=3>
+Area
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TH ALIGN=center>
+Type in what you know
+</TH>
+
+<TH ALIGN=center>
+Conversion Factor
+</TH>
+
+<TH ALIGN=center>
+Result
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,6.452,'csqcent')">square inches
+</TD>
+
+<TD ALIGN=center>
+x 6.452 = 
+</TD>
+
+<TD>
+<INPUT NAME="csqcent" SIZE=10 onFocus="this.blur()">sq cm
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.09,'csqmeter')">square
+feet
+</TD>
+
+<TD ALIGN=center>
+x 0.09 = 
+</TD>
+
+<TD>
+<INPUT NAME="csqmeter" SIZE=10 onFocus="this.blur()">sq meters
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.8361,'csqmeter2')">square
+yards
+</TD>
+
+<TD ALIGN=center>
+x 0.8361 = 
+</TD>
+
+<TD>
+<INPUT NAME="csqmeter2" SIZE=10 onFocus="this.blur()">sq meters
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,2.590,'csqkilos')">square miles
+</TD>
+
+<TD ALIGN=center>
+x 2.590 = 
+</TD>
+
+<TD>
+<INPUT NAME="csqkilos" SIZE=10 onFocus="this.blur()">sq kilometers
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.4,'csqhect')">acres
+</TD>
+
+<TD ALIGN=center>
+x 0.4 = 
+</TD>
+
+<TD>
+<INPUT NAME="csqhect" SIZE=10 onFocus="this.blur()">hectares
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD COLSPAN=3 WIDTH=480>
+<CENTER>--</CENTER>
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.155,'csqinch')">square cm
+</TD>
+
+<TD ALIGN=center>
+x 0.155 = 
+</TD>
+
+<TD>
+<INPUT NAME="csqinch" SIZE=10 onFocus="this.blur()">sq inches
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,1.196,'csqyard')">square meters
+</TD>
+
+<TD ALIGN=center>
+x 1.196 = 
+</TD>
+
+<TD>
+<INPUT NAME="csqyard" SIZE=10 onFocus="this.blur()">sq yards
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.3861,'csqmile')">square km
+</TD>
+
+<TD ALIGN=center>
+x 0.3861 = 
+</TD>
+
+<TD>
+<INPUT NAME="csqmile" SIZE=10 onFocus="this.blur()">sq miles
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,2.5,'csqacre')">hectares
+</TD>
+
+<TD ALIGN=center>
+x 2.5 = 
+</TD>
+
+<TD>
+<INPUT NAME="csqacre" SIZE=10 onFocus="this.blur()">acres
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF" ALIGN=center>
+<TD COLSPAN=3><A NAME="Mass">Go To:</A> 
+<A HREF="#Length">Length</A> | 
+<A HREF="#Area">Area</A> | 
+<A HREF="#Mass">Mass and Weight</A> | 
+<A HREF="#Liquid">Liquid Volume</A> | 
+<A HREF="#Temper">Temperature</A>
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF" ALIGN=center>
+<TH COLSPAN=3>
+Mass and Weight
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TH ALIGN=center>
+Type in what you know
+</TH>
+
+<TH ALIGN=center>
+Conversion Factor
+</TH>
+
+<TH ALIGN=center>
+Result
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,28.41,'cgrams')">fluid ounces (UK)
+</TD>
+
+<TD ALIGN=center>
+x 28.41 = 
+</TD>
+
+<TD>
+<INPUT NAME="cgrams" SIZE=10 onFocus="this.blur()">grams
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.4536,'ckgrams')">pounds
+</TD>
+
+<TD ALIGN=center>
+x 0.4536 = 
+</TD>
+
+<TD>
+<INPUT NAME="ckgrams" SIZE=10 onFocus="this.blur()">kilograms
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.9,'cktons')">short tons
+</TD>
+
+<TD ALIGN=center>
+x 0.9 = 
+</TD>
+
+<TD>
+<INPUT NAME="cktons" SIZE=10 onFocus="this.blur()">metric tons
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD COLSPAN=3 WIDTH=480>
+<CENTER>--</CENTER>
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.0352,'cfloz')">grams
+</TD>
+
+<TD ALIGN=center>
+x 0.0352 = 
+</TD>
+
+<TD>
+<INPUT NAME="cfloz" SIZE=10 onFocus="this.blur()">fluid ounces (UK)
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,2.2046,'clbs')">kilograms
+</TD>
+
+<TD ALIGN=center>
+x 2.2046 = 
+</TD>
+
+<TD>
+<INPUT NAME="clbs" SIZE=10 onFocus="this.blur()">pounds
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,1.1,'ctons')">metric tons
+</TD>
+
+<TD ALIGN=center>
+x 1.1 = 
+</TD>
+
+<TD>
+<INPUT NAME="ctons" SIZE=10 onFocus="this.blur()">short tons
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF" ALIGN=center>
+<TD COLSPAN=3><A NAME="Liquid">Go To:</A> 
+<A HREF="#Length">Length</A> | 
+<A HREF="#Area">Area</A> | 
+<A HREF="#Mass">Mass and Weight</A> | 
+<A HREF="#Liquid">Liquid Volume</A> | 
+<A HREF="#Temper">Temperature</A>
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF" ALIGN=center>
+<TH COLSPAN=3>
+Liquid Volume
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TH ALIGN=center>
+Type in what you know
+</TH>
+
+<TH ALIGN=center>
+Conversion Factor
+</TH>
+
+<TH ALIGN=center>
+Result
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,28.41,'cml')">fluid ounces (UK)
+</TD>
+
+<TD ALIGN=center>
+x 28.41 = 
+</TD>
+
+<TD>
+<INPUT NAME="cml" SIZE=10 onFocus="this.blur()">millilitres
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.568,'cliter')">pints
+</TD>
+
+<TD ALIGN=center>
+x 0.568 = 
+</TD>
+
+<TD>
+<INPUT NAME="cliter" SIZE=10 onFocus="this.blur()">litres
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,1.14,'cliter2')">quarts (UK)
+</TD>
+
+<TD ALIGN=center>
+x 1.14 = 
+</TD>
+
+<TD>
+<INPUT NAME="cliter2" SIZE=10 onFocus="this.blur()">litres
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,4.54,'cliter3')">gallons (UK)
+</TD>
+
+<TD ALIGN=center>
+x 4.54 = 
+</TD>
+
+<TD>
+<INPUT NAME="cliter3" SIZE=10 onFocus="this.blur()">litres
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD COLSPAN=3 WIDTH=480>
+<CENTER>--</CENTER>
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.035,'coz')">millilitres
+</TD>
+
+<TD ALIGN=center>
+x 0.035 = 
+</TD>
+
+<TD>
+<INPUT NAME="coz" SIZE=10 onFocus="this.blur()">fluid ounces (UK)
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,2.1,'clit1')">litres
+</TD>
+
+<TD ALIGN=center>
+x 2.1 = 
+</TD>
+
+<TD>
+<INPUT NAME="clit1" SIZE=10 onFocus="this.blur()">pints
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.877,'cqts')">litres
+</TD>
+
+<TD ALIGN=center>
+x 0.877 = 
+</TD>
+
+<TD>
+<INPUT NAME="cqts" SIZE=10 onFocus="this.blur()">quarts
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "calc(this.value,0.22,'cgal1')">litres
+</TD>
+
+<TD ALIGN=center>
+x 0.22 = 
+</TD>
+
+<TD>
+<INPUT NAME="cgal1" SIZE=10 onFocus="this.blur()">gallons (UK)
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF" ALIGN=center>
+<TD COLSPAN=3><A NAME="Temper">Go To:</A> 
+<A HREF="#Length">Length</A> | 
+<A HREF="#Area">Area</A> | 
+<A HREF="#Mass">Mass and Weight</A> | 
+<A HREF="#Liquid">Liquid Volume</A> | 
+<A HREF="#Temper">Temperature</A>
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF" ALIGN=center>
+<TH COLSPAN=3>
+Temperature
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TH ALIGN=center>
+Type in what you know
+</TH>
+
+<TH ALIGN=center>
+Conversion Factor
+</TH>
+
+<TH ALIGN=center>
+Result
+</TH>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "document.ConverTable.ccelsius.value = 100/(212-32) * (this.value - 32 )">Fahrenheit
+</TD>
+
+<TD ALIGN=center>
+- 32 x 5/9 = 
+</TD>
+
+<TD>
+<INPUT NAME="ccelsius" SIZE=10 onFocus="this.blur()">Celsius
+</TD>
+</TR>
+
+<TR BGCOLOR="#E0E0FF">
+<TD>
+<INPUT SIZE=10 onChange = "document.ConverTable.cfahren.value = (212-32)/100 * this.value + 32 ">Celsius
+</TD>
+
+<TD ALIGN=center>
+x 9/5 + 32= 
+</TD>
+
+<TD>
+<INPUT NAME="cfahren" SIZE=10 onFocus="this.blur()">Fahrenheit
+</TD>
+</TR>
+</TABLE>
+
+</FORM>
+
+</BLOCKQUOTE>
+</BODY>
+</HTML>
